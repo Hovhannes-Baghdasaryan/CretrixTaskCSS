@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    width: 367px;
+    height: 413px;
+    border: 1px solid black;
+    background: #FFFFFF;
+    border: 1px solid #EAEDF0;
+    box-shadow: 0px 4px 24px rgba(184, 197, 211, 0.47);
+    border-radius: 12px;
+    position: relative;
+}
+
+.image {
+    width: 367;
+    height: 50%;
+    background-image: url("CoverImage.png");
+    background-repeat: no-repeat;
+    border-radius: 12px 12px 0 0;
+}
+
+.text  {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    display: flex;
+    gap: 3px;
+}
+
+.text span::before {
+    content: "\2022";
+}
+
+.actor {
+    border: 1px solid #FFFFFF;
+    filter: drop-shadow(2px 4px 12px rgba(0, 0, 0, 0.25));
+    border-radius: 50px;
+    position: absolute;
+    left: 12px;
+    top: 12px;
+}
+
+.under {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.topic {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #212121;
+}
+.underTopic {
+    display: flex;
+    margin-top: 16px;
+    gap: 8px;
+}
+
+.under span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #212121;
+}
+
+.progressBar {
+    width: 90%;
+    margin: 20px auto;
+}
+.progressBar p {   
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #9C9C9C;
+}
+
+.progressBar span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color:  #4CE77B;
+}
+
+.bar {
+    width: 100%;
+    margin: 2px auto;
+    background-color: #F0F0F0;
+    border-radius: 100px;
+}
+
+.greenBar {
+    width: 64%;
+    height: 12px;
+    background-color: #4CE77B;
+    border-radius: 100px;
+    color: #4CE77B;
+}
+
+.vectors {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.theRest {
+    display: flex;
+    gap: 22.67px;
+}
